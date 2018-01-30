@@ -16,7 +16,7 @@ function exactMatch(arr, obj) {
   return arr.filter(function (el) {
     for (const attr in obj) {
       return el[attr] === attr
-    debugger; 
+    // debugger; 
     }
   })
   
