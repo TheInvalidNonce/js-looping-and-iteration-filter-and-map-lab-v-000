@@ -9,5 +9,4 @@ function driverNamesWithRevenueOver(arr, revenue) {
   .map(function (el) {
     return el.name
   })
-  }
 }
