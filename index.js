@@ -9,7 +9,7 @@ function driverNamesWithRevenueOver(arr, revenue) {
     for (const name in arr) {
       if (el['revenue'] > revenue) {
         // debugger;
-        return [el['name']];
+        return ...el['name'];
       }
     }
   })
