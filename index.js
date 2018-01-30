@@ -6,7 +6,7 @@ function driversWithRevenueOver(arr, revenue) {
 
 function driverNamesWithRevenueOver(arr, revenue) {
   return arr.filter(function (el) {
-    for (const name in arr) {
+    for (const name of arr) {
       if (el['revenue'] > revenue) {
         return el[name] 
       }
