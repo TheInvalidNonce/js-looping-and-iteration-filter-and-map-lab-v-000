@@ -7,7 +7,7 @@ function driversWithRevenueOver(arr, revenue) {
 function driverNamesWithRevenueOver(arr, revenue) {
   return arr.filter(function (el) {
       if (el['revenue'] > revenue) {
-        return Object.assign({}, el['name'])
+        return el.name
       }
   })
 }
