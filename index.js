@@ -1,5 +1,5 @@
 function driversWithRevenueOver(arr, str) {
   return arr.filter(function (el) {
-    debugger;
+    return el.revenue > str;
   })
 }
