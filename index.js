@@ -1,5 +1,5 @@
-function driversWithRevenueOver(arr, str) {
+function driversWithRevenueOver(arr, revenue) {
   return arr.filter(function (el) {
-    return el.revenue > str;
+    return el.revenue > revenue;
   })
 }
